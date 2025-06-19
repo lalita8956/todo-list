@@ -1,7 +1,7 @@
 
 
 print("*"*25)
-print("Welcome to do list!")
+print("Welcome TODO LIST !")
 print("*"*25)
 from root import options,  list_task
 a=100
