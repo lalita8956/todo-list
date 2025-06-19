@@ -16,18 +16,18 @@ while(a!=99):
         list_task(task)
         print("-"*25)
     elif(a==2):
-        t = input("Enter task=")
-        task.append({'task':t,'done': False})
+        b = input("Enter task=")
+        task.append({'task':b ,'done': False})
         list_task(task)
         print("-"*25)
         
     elif(a==3):
-        t = int(input("Enter task id to Delete task="))
-        task.pop(t)
+        b = int(input("Enter task id to Delete task="))
+        task.pop(b)
         list_task(task)
     elif(a==4):
-        t=int(input("Enter task id to complete="))
-        task[t]['done'] = True
+        b =int(input("Enter task id to complete="))
+        task[b]['done'] = True
         list_task(task)
     else:
         print("Exit")

@@ -14,6 +14,3 @@ def list_task(task):
             print(task.index(i),i['task'] ,"------>", "InComplete")
             
         
-        
-        
-        
